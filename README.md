@@ -6,10 +6,7 @@ Python 3.8, PyTorch >= 1.8
 BasicSR 1.4.2
 Platforms: Ubuntu 18.04, cuda-11
 Installation
-# Clone the repo
-git clone https://github.com/Zheng-MJ/SMFANet.git
 # Install dependent packages
-cd SMFANet
 conda create --name smfan python=3.8
 conda activate smfan
 pip install -r requirements.txt
@@ -55,3 +52,15 @@ Comparison of local attribution maps (LAMs) and diffusion indices (DIs)
 
 The power spectral density (PSD) visualizations of feature 
 
+### Citation
+If you use this code, please cite our manuscript：
+
+```
+Ni J, Hou P, Zhou B, et al. FMCNet: Enhancing Anime Image Super-Resolution through Frequency-Aware Multi-Scale Consistency[J]. The Visual Computer, 2026 (submitted).
+ ```
+
+### Acknowledgement
+This code is based on [BasicSR](https://github.com/XPixelGroup/BasicSR) toolbox. Thanks for the awesome work.
+
+### Contact
+If you have any questions, please feel free to reach me out at 18912184527@163.com
